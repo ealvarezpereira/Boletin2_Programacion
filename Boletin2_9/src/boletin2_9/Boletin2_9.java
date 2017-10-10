@@ -11,11 +11,11 @@ public class Boletin2_9 {
         
         Scanner sc= new Scanner(System.in);
         
-        float euros,b100,b20,b5,m1;
+        int euros,b100,b20,b5,m1;
         
         System.out.println("Introduzca los euros:");
         
-        euros=sc.nextFloat();
+        euros=sc.nextInt();
         
         b100= euros/100;
         
